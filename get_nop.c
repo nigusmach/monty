@@ -1,39 +1,20 @@
-nclude "monty.h"
-
-
-
+#include "monty.h"
 
 
 /**
+ *  get_nop - When no operation present
  *
- *  *  get_nop - When no operation present
+ *  @stack: Header of stack
  *
- *   *
+ *  @line_number: Integer of line numbers
  *
- *    *  @stack: Header of stack
- *
- *     *
- *
- *      *  @line_number: Integer of line numbers
- *
- *       *
- *
- *        *  Return: Void
- *
- *         */
-
-
-
+ *  Return: Void
+ */
 
 
 void get_nop(stack_t **stack, unsigned int line_number)
-
 {
 
-
-
-		(void) stack;
-
-			(void) line_number;
-
+	(void) stack;
+	(void) line_number;
 }
